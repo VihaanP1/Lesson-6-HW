@@ -18,3 +18,9 @@ elif x == 5 :
     print("Beagles are friendly, curious, and energetic dogs with an excellent sense of smell. They are affectionate and great with families, known for their playful and outgoing nature. Beagles love exploring and require regular exercise to stay happy and healthy.")
 
 print("-"*30)
+
+
+for x in range (1,6):
+    for y in range (1,x+1):
+        print(y, end = " ")
+    print()
